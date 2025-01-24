@@ -1,0 +1,36 @@
+<div class="offcanvas-header">
+  <p class="offcanvas-title">Equifax / <span style="color: rgb(0, 140, 255);">Site Reliability Engineer</span> </p>
+  <button
+    type="button"
+    class="btn-close text-reset"
+    aria-label="Close"
+    (click)="activeOffcanvas.dismiss('Cross click')"
+  ></button>
+</div>
+<div class="offcanvas-body">
+      <p><strong>Situación:</strong> Garantizar la disponibilidad y rendimiento óptimo de aplicaciones críticas bajo estrictos acuerdos de nivel de servicio (<span style="text-decoration: underline;text-decoration-style:dotted;" placement="top" ngbTooltip="Acuerdo de Nivel de Servicios">SLAs</span>).</p>
+      <p><strong>Tarea:</strong> Monitorear el desempeño de sistemas operativos y servicios distribuidos, automatizar despliegues y optimizar procesos de <span style="text-decoration: underline;text-decoration-style:dotted;" placement="top" ngbTooltip="Integracion continua y entrega continua">CI/CD</span>.</p>
+      <p><strong>Acción:</strong></p>
+        <ul class="list-unstyled">
+          <li>
+            <ul>
+              <li>Manteniendo un monitoreo continuo 24/7 utilizando <mark>DataDog</mark> para integraciones con servidores Windows y Linux, configurando alertas tempranas y monitoreo de endpoints clave, y utilizando la integración con <mark>PagerDuty</mark> lo que permitió una detección proactiva de fallos.</li>
+              <li>Automatice despliegues mediante pipelines personalizados con <mark>Jenkins</mark>, integrando validaciones con <mark>SonarQube</mark> y despliegues a entornos de desarrollo, QA, producción, y backups on-premise y despliegues en <span style="text-decoration: underline;text-decoration-style:dotted;" placement="top" ngbTooltip="Amazon Web Services">AWS</span>.</li>
+              <li>Diseñe scripts avanzados para actualización automática de tokens usando <mark>Hashicorp Vault</mark> y reinicio de servicios en servidores Tomcat, automatizando la recuperación con notificaciones por correo y optimizando tiempos de inactividad.</li>
+              <li>Desarrollé soluciones con <mark>PowerShell</mark> para automatizar despliegues masivos, mantenimiento y/o pruebas pre producción y mejoras en servicios críticos.</li>
+            </ul>
+          </li>
+        </ul>
+      <p><strong>Resultado:</strong> </p>
+      <ul class="list-unstyled">
+        <li>
+          <ul>
+            <li>Reducción del tiempo de despliegue en un 20%, mejorando la eficiencia operativa y la velocidad de entregas de software.</li>
+            <li>Mejora significativa en la capacidad de respuesta a incidentes, asegurando el cumplimiento de <span style="text-decoration: underline;text-decoration-style:dotted;" placement="top" ngbTooltip="Acuerdo de Nivel de Servicios">SLAs</span> críticos y optimizando la continuidad del negocio.</li>
+          </ul>
+        </li>
+      </ul>
+      <div class="text-end">
+        <button type="button" class="btn btn-outline-secondary" (click)="activeOffcanvas.close('Close click')">Cerrar</button>
+      </div>
+</div>

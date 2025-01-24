@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@87.5,100..900&display=swap');
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+body{
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fafbfd !important;
+    color: rgb(239, 239, 239) !important;
+}
