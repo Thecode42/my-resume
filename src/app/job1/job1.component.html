@@ -8,16 +8,65 @@
   ></button>
 </div>
 <div class="offcanvas-body">
-      <p><strong>Situación:</strong> Garantizar la disponibilidad y rendimiento óptimo de aplicaciones críticas bajo estrictos acuerdos de nivel de servicio (<span style="text-decoration: underline;text-decoration-style:dotted;" placement="top" ngbTooltip="Acuerdo de Nivel de Servicios">SLAs</span>).</p>
-      <p><strong>Tarea:</strong> Monitorear el desempeño de sistemas operativos y servicios distribuidos, automatizar despliegues y optimizar procesos de <span style="text-decoration: underline;text-decoration-style:dotted;" placement="top" ngbTooltip="Integracion continua y entrega continua">CI/CD</span>.</p>
+      <p><strong>Situación:</strong> Garantizar la disponibilidad, estabilidad y rendimiento de aplicaciones críticas bajo <span style="text-decoration: underline;text-decoration-style:dotted;" placement="top" ngbTooltip="Acuerdo de Nivel de Servicios">SLAs</span>, mediante la implementación y optimización de procesos CI/CD, monitoreo continuo y automatización de infraestructura en entornos on-premise y cloud.</p>
+      <p><strong>Tarea:</strong></p>
+      <ul class="list-unstyled">
+        <li>
+          <ul>
+            <li>Diseñar, optimizar y mantener pipelines CI/CD para asegurar despliegues eficientes y automatizados en entornos de desarrollo, QA y producción.</li>
+            <li>Monitorear el desempeño de sistemas operativos y servicios distribuidos, automatizar despliegues y optimizar procesos de <span style="text-decoration: underline;text-decoration-style:dotted;" placement="top" ngbTooltip="Integracion continua y entrega continua">CI/CD</span>.</li>
+            <li>Automatizar despliegues en <span style="text-decoration: underline;text-decoration-style:dotted;" placement="top" ngbTooltip="Amazon Web Services">AWS</span> mediante <mark>Jenkins</mark>, mejorando los tiempos de despliegue y la eficiencia operativa.</li>
+            <li>Administrar servidores Tomcat en Linux, Docker, Kubernetes y Windows IIS.</li>
+            <li>Mejorar los esquemas de releases y versionamiento para garantizar la calidad y escalabilidad de los productos.</li>
+          </ul>
+        </li>
+      </ul>
       <p><strong>Acción:</strong></p>
+      <p><strong>Automatización y optimización de despliegues:</strong></p>
+      <ul class="list-unstyled">
+        <li>
+          <ul>
+            <li>Automaticé despliegues mediante pipelines personalizados con <mark>Jenkins</mark>, integrando validaciones con <mark>SonarQube</mark> y despliegues a entornos de desarrollo, QA, producción, y backups on-premise y despliegues en <span style="text-decoration: underline;text-decoration-style:dotted;" placement="top" ngbTooltip="Amazon Web Services">AWS</span>.</li>
+            <li>Automatización de despliegues en AWS y entornos on-premise, asegurando consistencia, versionamiento y tiempos mínimos de downtime.</li>
+          </ul>
+        </li>
+      </ul>
+      <p><strong>Monitoreo y soporte de infraestructura:</strong></p>
         <ul class="list-unstyled">
           <li>
             <ul>
-              <li>Manteniendo un monitoreo continuo 24/7 utilizando <mark>DataDog</mark> para integraciones con servidores Windows y Linux, configurando alertas tempranas y monitoreo de endpoints clave, y utilizando la integración con <mark>PagerDuty</mark> lo que permitió una detección proactiva de fallos.</li>
-              <li>Automatice despliegues mediante pipelines personalizados con <mark>Jenkins</mark>, integrando validaciones con <mark>SonarQube</mark> y despliegues a entornos de desarrollo, QA, producción, y backups on-premise y despliegues en <span style="text-decoration: underline;text-decoration-style:dotted;" placement="top" ngbTooltip="Amazon Web Services">AWS</span>.</li>
-              <li>Diseñe scripts avanzados para actualización automática de tokens usando <mark>Hashicorp Vault</mark> y reinicio de servicios en servidores Tomcat, automatizando la recuperación con notificaciones por correo y optimizando tiempos de inactividad.</li>
+              <li>Mantuve un monitoreo continuo 24/7 utilizando <mark>DataDog</mark> para integraciones con servidores Windows y Linux, configurando alertas tempranas y monitoreo de endpoints clave, y utilizando la integración con <mark>PagerDuty</mark> lo que permitió una detección proactiva de fallos.</li>
+              <li>Analicé métricas de rendimiento de aplicaciones y sistemas utilizando <mark>DataDog</mark>, <mark>Kibana</mark> y <mark>Prometheus</mark>, proponiendo y aplicando mejoras en la infraestructura.</li>
+            </ul>
+          </li>
+        </ul>
+        <p><strong>Automatización de tareas y mantenimiento de sistemas:</strong></p>
+        <ul class="list-unstyled">
+          <li>
+            <ul>
+              <li>Diseñe scripts avanzados para actualización automática de tokens usando <mark>Hashicorp Vault</mark>, despliegue y mantenimiento de servicios en servidores Tomcat, automatizando la recuperación con notificaciones por correo y optimizando tiempos de inactividad.</li>
               <li>Desarrollé soluciones con <mark>PowerShell</mark> para automatizar despliegues masivos, mantenimiento y/o pruebas pre producción y mejoras en servicios críticos.</li>
+              <li>Desarrollé soluciones con <mark>Bash Script y Python</mark> para la gestion segura de credenciales con el uso de <mark>Hashicorp Vault</mark>, mantenimiento, pruebas pre producción y mejoras en servicios críticos.</li>
+              <li>Optimicé la administración de infraestructura con herramientas de orquestación de contenedores Kubernetes, asegurando escalabilidad y disponibilidad.</li>
+            </ul>
+          </li>
+        </ul>
+        <p><strong>Administración de servidores on-premise/cloud:</strong></p>
+        <ul class="list-unstyled">
+          <li>
+            <ul>
+              <li>Administré y automaticé procesos de despliegue y mantenimiento de microservicios en <span style="text-decoration: underline;text-decoration-style:dotted;" placement="top" ngbTooltip="Internet Information Services">IIS</span>.</li>
+              <li>Implementé levantamiento de instancias en <span style="text-decoration: underline;text-decoration-style:dotted;" placement="top" ngbTooltip="Elastic Compute Cloud">EC2</span> de AWS, CloudWatch.</li>
+              <li>Implementé la creación de VPC, security groups, subnets en AWS usando <mark>Terraform</mark>.</li>
+            </ul>
+          </li>
+        </ul>
+        <p><strong>Mejoras en calidad y procesos de releases:</strong></p>
+        <ul class="list-unstyled">
+          <li>
+            <ul>
+              <li>Establecí estándares de versionamiento de repositorios Git, asegurando una estructura limpia y escalable, alineada con el crecimiento de la compañía.</li>
+              <li>Proporcioné soporte y orientación a equipos de desarrollo sobre mejores prácticas en CI/CD, infraestructura y seguridad.</li>
             </ul>
           </li>
         </ul>
@@ -27,6 +76,8 @@
           <ul>
             <li><strong>Mejora del rendimiento:</strong> Reducción del tiempo de despliegue en un 20%, mejorando la eficiencia operativa y la velocidad de entregas de software.</li>
             <li><strong>Mejora en SLAs:</strong> Mejora significativa en la capacidad de respuesta a incidentes, asegurando el cumplimiento de <span style="text-decoration: underline;text-decoration-style:dotted;" placement="top" ngbTooltip="Acuerdo de Nivel de Servicios">SLAs</span> críticos y optimizando la continuidad del negocio.</li>
+            <li><strong>Automatización de tareas repetitivas: </strong>Reducción en un 40% el esfuerzo manual en gestión de infraestructura y despliegues.</li>
+            <li><strong>Estabilidad y seguridad:</strong> Mayor estabilidad y seguridad en entornos de producción, garantizando una infraestructura robusta y adaptable al crecimiento empresarial.</li>
           </ul>
         </li>
       </ul>
